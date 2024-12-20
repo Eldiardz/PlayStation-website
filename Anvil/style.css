@@ -1,0 +1,34 @@
+.headofme{
+    height: 5rem;
+}
+.mainofbody{
+    height: 75.625rem;
+    background-color: #343a40;
+}
+.mainofmain{
+    height: 44.125rem;
+}
+.undermain{
+    height: 37.5rem;
+}
+.footergoi{
+    height: 50rem;
+}
+.textblock{
+    height: 10rem;
+}
+.shopbox{
+    height: 30rem;
+}
+.ihate{
+    height: 4rem;
+}
+.imgblock{
+    height: 15rem;
+}
+.buttonblock{
+    height: 7.4rem;
+}
+.collapse{
+    border: 2px gray;
+}

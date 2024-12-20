@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header class="col-12 bg-white headofme d-flex border border-white gap-2">
+        <a href="https://www.playstation.com/en-us/" class="col-1 bg-white border border-white d-flex justify-content-center">
+          <img src="playstation.svg" alt="">
+        </a>
+        <div class="col-1 bg-white p-3 border border-white d-flex">
+          <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Игры
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">AstroBot</a></li>
+              <li><a class="dropdown-item" href="#">Hitman: Last Soul</a></li>
+              <li><a class="dropdown-item" href="#">Detroit: Become Human</a></li>
+              <li><a class="dropdown-item" href="#">The Last Of Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bg-white p-3 border border-white d-flex">
+          <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Оборудование
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">PS 5</a></li>
+              <li><a class="dropdown-item" href="#">PS 4</a></li>
+              <li><a class="dropdown-item" href="#">PS VR</a></li>
+              <li><a class="dropdown-item" href="#">PS+</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1 bg-white p-3 border border-white d-flex">
+          <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Новости
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">PS Blog</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1 bg-white p-3 border border-white d-flex">
+          <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Магазин
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">PS Store</a></li>
+            </ul>
+          </div>
+        </div>
+    </header>
+    <main class="col-12 mainofbody d-flex  flex-column">
+        <div class="col-12 mainofmain d-flex ">
+            <div id="carouselExample" class="carousel slide col-12 d-flex">
+                <div class="carousel-inner col-12 d-flex">
+                  <div class="carousel-item active ">
+                    <img src="carousel_1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item ">
+                    <img src="carousel_2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item ">
+                    <img src="carousel_3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="col-11  undermain d-flex  mx-auto">
+            <div class="col-12 listofgames h-75 d-flex">
+                <div class="col-3  d-flex align-items-center flex-column">
+                  <div class="imggame col-11 h-75  d-flex">
+                    <img src="immortal.jpg" width="100%" alt="">
+                  </div>
+                  <div class="col-11 ihate align-items-center mt-3">
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      Подробнее
+                    </button>
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Immortals Fenyx Rising</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <h4 class="fw-bold">Ubisoft</h4>
+                            <p>RUB 4.449</p>
+                            <p>Выпущено 03/12/20</p>
+                            ПОСЛЕДНЯЯ НАДЕЖДА БОГОВ
+                            <br>
+                            Вам предстоит спасти греческих богов.
+                            <br>
+                            Сразитесь против мифических существ, овладейте силами богов и победите Тифона - самого могущественного титана.
+                            <br>
+                            МИФИЧЕСКИЕ ПРОТИВНИКИ
+                            <br>
+                            Используйте данные богами способности и оружие, чтобы одолеть легендарных существ: циклопа, горгону, минотавра и не только.
+                            <br>
+                            МОЩЬ БОГОВ
+                            <br>
+                            Дары богов помогут вам сражаться с монстрами, разгадывать головоломки и исследовать открытый мир.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Добавить в корзину</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3  d-flex align-items-center flex-column">
+                  <div class="imggame col-11 h-75  d-flex">
+                    <img src="assassins.jpg" width="100%" alt="">
+                  </div>
+                  <div class="col-11  ihate align-items-center mt-3">
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                      Подробнее
+                    </button>
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Assasin'S Creed: Valhalla</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <h4 class="fw-bold">Ubisoft</h4>
+                            <p>RUB 4.449</p>
+                            <p>Выпущено 11/10/20</p>
+                            <p>Станьте легендарным воином-викингом, воспитанным на историях о битвах и славе. Нападайте на врагов, развивайте свое поселение и накапливайте власть, стараясь заслужить свое место среди богов в Вальгалле.</p>
+                            <br>
+                            <p>Продвинутые ролевые механики позволят вам управлять развитием своего персонажа и влиять на окружающий мир. Каждый сделанный вами выбор, от политических союзов и стратегии в бою до диалогов и улучшения экипировки, может стать очередной ступенькой на пути к славе.</p>
+                            <br>
+                            <p>Стройте, улучшайте и приспосабливайте под свои нужды здания, такие как казармы, кузню, дом татуировщика и многое другое. Принимайте новых людей в свой клан и проживайте собственную жизнь викинга.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Добавить в корзину</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3  d-flex align-items-center flex-column">
+                  <div class="imggame col-11 h-75  d-flex">
+                    <img src="cod.jpg" width="100%" alt="">
+                  </div>
+                  <div class="col-11  ihate align-items-center mt-3">
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                      Подробнее
+                    </button>
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Black Ops Cold War </h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <h4 class="fw-bold">Activision</h4>
+                            <p>RUB 1.991</p>
+                            <p>Выпущено 11/13/20</p>
+                            <p>Действие игры Black Ops Cold War происходит в период геополитического конфликта начала 1980-х годов.</p>
+                            <p>Встречайтесь с историческими деятелями и узнавайте жестокую правду, сражаясь в таких культовых местах по всему миру, как Восточный Берлин, Вьетнам, Турция, советские штаб-квартиры КГБ и так далее.</p>
+
+                            <p>Вам, как элитному оперативнику, предстоит разыскать таинственную личность, чья миссия – дестабилизировать глобальный баланс сил и изменить ход истории. Погрузитесь во тьму международных заговоров бок о бок с такими легендарными персонажами, как Вудс, Мэйсон и Хадсон, а также с новой группой оперативников, пытающихся предотвратить сценарий, готовившийся десятилетиями.</p>
+
+                            <p>Помимо кампании, Cold War предлагает новый арсенал оружия и снаряжения для многопользовательского режима и режима «Зомби».</p>
+
+                            <p>История на грани краха. Добро пожаловать в Call of Duty: Black Ops Cold War.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Добавить в корзину</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3  d-flex align-items-center flex-column">
+                  <div class="imggame col-11 h-75  d-flex">
+                    <img src="SM.jpg" width="100%" alt="">
+                  </div>
+                  <div class="col-11  ihate align-items-center mt-3">
+                    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                      Подробнее
+                    </button>
+                    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Spider Man: Miles Morales</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <h4 class="fw-bold">Sony Interactive Entertainment</h4>
+                            <p>RUB 1.863</p>
+                            <p>Выпущено 11/12/20</p>
+                            В новом приключении во вселенной Marvel’s Spider-Man юный Майлз Моралес пытается привыкнуть к своему новому дому и продолжает дело своего наставника Питера Паркера в качестве нового Человека-паука.
+                            Но когда над домом Майлза нависает страшная угроза, молодой герой понимает, что с великой силой приходит и великая ответственность. Чтобы спасти Нью-Йорк Marvel, Майлз придется надеть костюм Человека-паука и сделать его своим. 
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Добавить в корзину</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="col-12 bg-white footergoi d-flex flex-column">
+        <div class="col-12 textblock d-flex justify-content-center text-center flex-column">
+            <p class="">PLAY HAS NO LIMITS</p>
+            <h1 class="fw-bold">Представляем PlayStation 5</h1>
+            <h3 class="fw-bold">Откройте для себя новые игровые возможности, о которых вы даже не мечтали</h3>
+        </div>
+        <div class="col-9 shopbox d-flex mx-auto flex-column" >
+          <div class="col-12  d-flex h-75">
+            <div class="col-3  border border-white d-flex flex-column">
+              <div class="col-12 imgblock  d-flex">
+                <img src="playstation5.jpg" width="90%" class="mx-auto" alt="">
+              </div>
+              <div class="col-12 buttonblock d-flex">
+                <p>
+                  <a class="btn btn-primary mt-3" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                    Подробнее
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="col-3  border border-white d-flex flex-column">
+              <div class="col-12 imgblock  d-flex">
+                <img src="igrovaya-konsol-playstation-5.jpg" width="90%" class="mx-auto" alt="">
+              </div>
+              <div class="col-12 buttonblock d-flex">
+                <p>
+                  <a class="btn btn-primary mt-3" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                    Подробнее
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="col-3  border border-white d-flex flex-column">
+              <div class="col-12 imgblock  d-flex">
+                <img src="pulse-3d-1.jpg" width="90%" class="mx-auto" alt="">
+              </div>
+              <div class="col-12 buttonblock d-flex">
+                <p>
+                  <a class="btn btn-primary mt-3" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                    Подробнее
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="col-3  border border-white d-flex flex-column">
+              <div class="col-12 imgblock  d-flex">
+                <img src="img_0_504_93_1_6.png" width="90%" class="mx-auto" alt="">
+              </div>
+              <div class="col-12 buttonblock d-flex">
+                <p>
+                  <a class="btn btn-primary mt-3" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+                    Подробнее
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 h-25 d-flex flex-column">
+            <div class="collapse col-12" id="collapseExample1">
+              <div class="card card-body h-100">
+                <h1>Консоль PlayStation 5</h1>
+                <p>Окунитесь в новое поколение невероятных игр Playstation</p>
+                <a href="https://www.playstation.com/en-us/ps5/" class="w-25 rounded-2 bg-primary text-white text-decoration-none text-center border-0">Узнать больше</a>
+              </div>
+            </div>
+            <div class="collapse col-12" id="collapseExample2">
+              <div class="card card-body h-100">
+                <h1>Беспроводной контроллер Dual Sense™</h1>
+                <p>Ощутите погружение в игру при помощи контроллера, предлагающее тактильную отдачу, адаптивные триггеры и встроенный микрофон</p>
+                <a href="https://www.playstation.com/ru-ua/accessories/dualsense-wireless-controller/" class="w-25 rounded-2 bg-primary text-white text-decoration-none text-center border-0">Узнать больше</a>
+              </div>
+            </div>
+            <div class="collapse col-12" id="collapseExample3">
+              <div class="card card-body h-100">
+                <h1>Беспроводная гарнитура PULSE 3D™</h1>
+                <p>Наслаждайтесь безупречным качеством беспроводной связи благодаря гарнитуре, оптимизированной для 3D-звука на консолях PS5</p>
+                <a href="https://www.playstation.com/ru-ua/accessories/pulse-3d-wireless-headset/" class="w-25 rounded-2 bg-primary text-white text-decoration-none text-center border-0">Узнать больше</a>
+              </div>
+            </div>
+            <div class="collapse col-12" id="collapseExample4">
+              <div class="card card-body h-100">
+                <h1>ПДУ Ультимедия</h1>
+                <p>Удобное управления фильмами, потоковыми сервисами и другим контентом на консоли PS5 благодаря интуитивно понятной компоновке кнопок.</p>
+                <a href="https://www.playstation.com/ru-ua/accessories/media-remote/" class="w-25 rounded-2 bg-primary text-white text-decoration-none text-center border-0">Узнать больше</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
